@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-color: black;
+    }
+
+h2{
+    font-family:  'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #E1BF01;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+    padding-bottom: 20px;
+  }
+  
+  #menu{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    color: white;
+  }
+
+  #logo, #menu{
+    line-height: 30px;
+  }
+  
+  #menu li{
+    float: right;
+    margin-right: 30px;
+    padding-top: 20px;
+  }
+  
+  #menu a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #menu a:hover{
+    border-bottom: 1px solid #FFFFFF;
+  }
+  
+  .active {
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  #hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#hero {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-content, #hero-content h2 {
+    color: #ffffff;
+}
+
+#hero-content {
+  font-size: 110%;
+  font-family:  'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 500px;
+  padding: 40px 20px; 
+  background: rgba(212, 175, 55, 0.7);
+  position: absolute;
+  bottom: 30px; 
+  left: 50px;  
+}
+
+.content-section {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  height: 1000px; 
+  padding: 20px; 
+}
+
+
+.text-content h2 {
+  color: white;
+  font-family:  'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem; 
+  margin: 0;
+}
+
+.text-content {
+  flex: 1; 
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding-left: 50px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  flex: 1; 
+  height: 100%; 
+}
+
+.image-content img {
+  width: 100%; 
+  height: 50%;
+  object-fit: cover;
+}
+
+
