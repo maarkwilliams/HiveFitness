@@ -5,7 +5,7 @@ body {
     background-color: black;
     }
 
-h2{
+h2, h3{
     font-family:  'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -183,3 +183,64 @@ footer {
 .social-networks a:hover {
   text-decoration: underline; 
 }
+
+/* Clearfix for header */
+
+header::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* Clubs Title */
+
+#clubs-title {
+  text-align: left; 
+  margin: 20px 0 20px 60px;    
+  clear: both;      
+}
+
+#clubs-title h2 {
+  color: white;
+  font-size: 80px;
+}
+
+/* Clubs content */
+
+#clubs-content {
+  display: flex;
+  flex-direction: column; 
+}
+
+#clubs-content > div {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+#clubs-info {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  flex: 1; 
+}
+
+#clubs-content h3 {
+  font-size: 45px;
+  color: white;
+  margin: 0; 
+}
+
+#clubs-content p {
+  margin: 5px 0 0 0; 
+}
+
+#clubs-content img {
+  width: 50%; 
+  height: auto; 
+  margin-left: 20px; 
+}
+
+
