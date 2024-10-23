@@ -18,6 +18,8 @@ p {
     color: white;
 }
 
+/* Header */
+
 #logo{
     float: left;
     font-size: 280%;
@@ -55,6 +57,8 @@ p {
     border-bottom: 1px solid #FFFFFF;
   }
 
+/* Hero section */
+
   #hero-video {
     position: absolute;
     top: 0;
@@ -87,6 +91,8 @@ p {
   bottom: 30px; 
   left: 50px;  
 }
+
+/* Content section */
 
 .content-section {
   display: flex; 
@@ -128,4 +134,52 @@ p {
   object-fit: cover;
 }
 
+/* Footer */
 
+footer {
+  font-family: 'Quicksand', sans-serif;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+}
+
+
+.f-menu {
+  list-style: none; 
+  padding-left: 100px;
+  margin: 0; 
+}
+
+.f-menu li {
+  margin-bottom: 10px; 
+}
+
+.f-menu a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.f-menu a:hover {
+  text-decoration: underline; 
+}
+
+.social-networks {
+  display: flex; 
+  list-style: none; 
+  margin: 0; 
+}
+
+.social-networks li {
+  margin-left: 15px; 
+}
+
+.social-networks a {
+  color: white; 
+  font-size: 24px;
+  text-decoration: none; 
+}
+
+.social-networks a:hover {
+  text-decoration: underline; 
+}
