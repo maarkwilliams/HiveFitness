@@ -235,6 +235,7 @@ header::after {
 
 #clubs-content p {
   margin: 5px 0 0 0; 
+  letter-spacing: 0px;
 }
 
 #clubs-content img {
@@ -243,4 +244,130 @@ header::after {
   margin-left: 20px; 
 }
 
+/*Members hero image */
 
+#member-hero {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#member-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#member-hero-content {
+  position: absolute;
+  bottom: 50px; 
+  left: 50px;  
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 20px;
+}
+
+#member-hero-content h2 {
+  margin: 0; 
+  font-family: 'Roboto', sans-serif; 
+  color: rgb(00, 00, 00);
+  font-size: 100px; 
+}
+
+/*Members benefit list */
+
+#member-benefits {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px; 
+}
+
+#member-benefits-content {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+}
+
+#member-benefits-content h3 {
+  margin-right: 40px;
+  text-align: right; 
+}
+
+#member-benefits-content ul {
+  padding: 0; 
+  margin: 0; 
+  text-align: left; 
+}
+
+#member-benefits-content li {
+  margin-bottom: 10px; 
+  font-family: 'Quicksand', sans-serif; 
+  color: white; 
+}
+
+/* Members images*/
+
+#member-images {
+  display: flex; 
+  justify-content: center; 
+  align-items: stretch;  
+  padding: 20px;  
+}
+
+.members-image-container {
+  flex: 1;                    
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.members-image-container h3 {
+  position: absolute;
+  bottom: 50px;  
+  left: 50px; 
+  margin: 0;     
+  color: black;  
+  font-size: 40px;         
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 5px; 
+}
+
+.members-image-container img {
+  width: 100%;   
+  height: 100%;              
+  object-fit: cover;        
+}
+
+/*Members amenities*/
+
+#members-amenities {
+  display: flex;                  
+  justify-content: center;        
+  align-items: flex-start;        
+  width: 100%;                    
+}
+
+.members-amenities-images {
+  flex: 1;                        
+  margin: 10px;                  
+  text-align: center;            
+}
+
+.members-amenities-images img {
+  max-width: 100%;               
+  height: auto;                  
+}
+
+.members-amenities-images h3 {
+  margin-top: 10px;              
+}
+
+.members-amenities-images p {
+  margin-top: 5px;         
+  letter-spacing: 0px;  
+}
