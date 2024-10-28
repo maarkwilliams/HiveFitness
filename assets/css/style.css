@@ -57,7 +57,7 @@ p {
     border-bottom: 1px solid #FFFFFF;
   }
 
-/* Hero section */
+/* Index hero section */
 
   #hero-video {
     position: absolute;
@@ -274,7 +274,7 @@ header::after {
   margin: 0; 
   font-family: 'Roboto', sans-serif; 
   color: rgb(00, 00, 00);
-  font-size: 100px; 
+  font-size: 70px; 
 }
 
 /*Members benefit list */
@@ -371,3 +371,102 @@ header::after {
   margin-top: 5px;         
   letter-spacing: 0px;  
 }
+
+/* contact us page */
+
+#contact-hero {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#contact-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#contact-hero-content {
+  position: absolute;
+  bottom: 50px; 
+  left: 50px;  
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 20px;
+}
+
+#contact-hero-content h2 {
+  margin: 0; 
+  font-family: 'Roboto', sans-serif; 
+  color: rgb(00, 00, 00);
+  font-size: 70px; 
+}
+
+/* Contact form content */
+
+.contactform {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Space out the divs */
+  margin: 40px; /* Add some margin */
+}
+
+.contactform > div {
+  flex: 1; /* Allow divs to grow equally */
+  margin: 10px; /* Add space between divs */
+  padding: 20px; /* Add padding inside the divs */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  color: white; /* White text color */
+}
+
+.contactform > div:first-child {
+  text-align: center; /* Center text */
+}
+
+.contactform > div:last-child {
+  display: flex; /* Use flexbox for form alignment */
+  flex-direction: column; /* Arrange elements in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.contactform h3 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 50px; /* Increase heading size */
+}
+
+.contactform p {
+  font-size: 30px;
+  letter-spacing: 0;
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.contactform label {
+  font-weight: bold; /* Make label text bold */
+  margin: 10px 0 5px; /* Spacing above and below labels */
+}
+
+.contactform input, 
+.contactform textarea {
+  width: 100%; /* Full width */
+  max-width: 400px; /* Limit width for better appearance */
+  padding: 10px; /* Padding for inputs */
+  margin-bottom: 20px; /* Space below inputs */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for inputs */
+  font-size: 20px; /* Font size */
+ }
+
+.contactform input[type="submit"] {
+  background-color: #E1BF01; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1em; /* Font size */
+ }

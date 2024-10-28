@@ -28,9 +28,45 @@
     </nav>
   </header>
 
-    <section> 
-    
-    </section>
+  <section>
+    <div id="contact-hero">
+        <img src="assets/images/contact-hero.jpg">     
+        <div id="contact-hero-content">
+            <h2>Contact Us</h2>
+        </div>
+    </div>
+  </section>
+
+  <section class="contactform">
+    <div>
+      <h3>You Ask. <br>We Answer. <br>Let Crunch Do Some Heavy LiftingI!</h3>
+      <p>Do you have a question or comment for us? Please fill out the form and we will do our best to get back to you.</p>
+    </div>
+    <div>
+      <h3>Contact Form</h3>
+      <form action="/submit" method="POST">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+  
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+  
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+  
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+  
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+  
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+  
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
 
   <footer>
     <ul class="f-menu">
