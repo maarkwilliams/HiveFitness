@@ -90,14 +90,14 @@ p {
 }
 
 #hero-content {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 4px;
-  width: 500px;
-  padding: 20px 20px; 
+  width: 40%;
+  padding: 5px 5px;
   background: rgba(212, 175, 55, 0.7);
-  position: absolute;
-  bottom: 30px; 
+  position: relative;
+  top: 450px; 
   left: 50px;  
 }
 
@@ -539,16 +539,7 @@ header::after {
 
 /* media queries */
 
-@media (max-width: 1024px) {
-
-#hero-video {
-  height: 75vh;
-}
-  
-}
-
-
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   
 /* header bar */
 
@@ -584,7 +575,89 @@ header::after {
 /* hero video */
   
 #hero-video {
-  height: 50vh;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
+#hero {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+#hero-content {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 30%;
+  padding: 10px 10px; 
+  background: rgba(212, 175, 55, 0.7);
+  position: relative;
+  top: 175px; 
+  left: 50px;  
+}
+
+
+.content-section {
+  flex-direction: column;
+  height: auto;
+
+}
+
+.text-content {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+}
+
+.text-content h2 {
+  font-size: 2rem;
+}
+
+#member-images {
+  flex-direction: column;
+}
+
+#members-amenities {
+  flex-direction: column;
+
+}
+
+#clubs-content {
+  display: flex;  
+  flex-direction: column;
+  gap: 30px; 
+  padding: 20px; 
+}
+
+#clubs-swansea,
+#clubs-london,
+#clubs-manchester,
+#clubs-dublin {
+  display: flex;                
+  flex-direction: column;     
+  align-items: center;        
+  text-align: center;          
+}
+
+#clubs-info {
+  margin-bottom: 20px;         
+}
+
+#clubs-swansea img,
+#clubs-london img,
+#clubs-manchester img,
+#clubs-dublin img {
+  width: 100%;                
+  max-width: 500px;             
+  height: auto;                 
+}
+
+.contactform {
+  flex-direction: column;
+
+}
 }
