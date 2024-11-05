@@ -6,53 +6,46 @@
     <title>Hive Fitness</title>
     <script src="https://kit.fontawesome.com/c04857c093.js" crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet">
-
-  </head>
+</head>
 <body>
   <header>
     <div id="pageheader">
-     <div id="logo">
-   <a href="index.html">
-     <h2>Hive Fitness</h2>
-   </a>
- </div>
- <div id="menu">
-   <nav>
-     <ul>
-       <li>
-         <a href="index.html">Home</a>
-       </li>
-       <li>
-         <a href="members.html">Members Benefits</a>
-       </li>
-       <li>
-         <a href="clubs.html">Clubs</a>
-       </li>
-     </ul>
-   </nav>
- </div>
- </div>
- </header>
+      <div id="logo">
+        <a href="index.html">
+          <h2>Hive Fitness</h2>
+        </a>
+      </div>
+      <div id="menu">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members Benefits</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
   <section>
     <div id="contact-hero">
-        <img src="assets/images/contact-hero.jpg">     
-        <div id="contact-hero-content">
-            <h2>Contact Us</h2>
-        </div>
+      <img src="assets/images/contact-hero.jpg" alt="A welcoming image for the contact page showing the Hive Fitness gym"> 
+      <div id="contact-hero-content">
+        <h2>Contact Us</h2>
+      </div>
     </div>
   </section>
 
   <section class="contactform">
     <div>
-      <h3>You Ask. <br>We Answer. <br>Let Crunch Do Some Heavy LiftingI!</h3>
+      <h2>You Ask. <br>We Answer. <br>Let Hive Do Some Heavy Lifting!</h2> 
       <p>Do you have a question or comment for us? Please fill out the form and we will do our best to get back to you.</p>
     </div>
     <div>
-      <h3>Contact Form</h3>
+      <h2>Contact Form</h2>
       <form action="/submit" method="POST">
         <label for="firstName">First Name:</label><br>
-        <input type="text" id="firstName" name="firstName" required><br><br>
+        <input type="text" id="firstName" name="firstName" required pattern=".*\S+.*"><br><br>
   
         <label for="lastName">Last Name:</label><br>
         <input type="text" id="lastName" name="lastName" required><br><br>
@@ -64,7 +57,7 @@
         <input type="tel" id="phone" name="phone" required><br><br>
   
         <label for="subject">Subject:</label><br>
-        <input type="text" id="subject" name="subject" required><br><br>
+        <input type="text" id="subject" name="subject" required pattern=".*\S+.*"><br><br>
   
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" required></textarea><br><br>
@@ -83,12 +76,12 @@
     </ul>
     
     <ul class="social-networks">
-      <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></li>
-      <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></li>
-      <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></li>
-      <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></li>
+      <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li> 
+      <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
+      <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li> 
+      <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
     </ul>
   </footer>
-  
-  </body>
-  </html>
+
+</body>
+</html>
