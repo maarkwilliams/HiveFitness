@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hive Fitness</title>
+    <title> Hive Fitness</title>
     <script src="https://kit.fontawesome.com/c04857c093.js" crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -48,19 +48,19 @@
         <input type="text" id="firstName" name="firstName" required pattern=".*\S+.*"><br><br>
     
         <label for="lastName">Last Name:</label><br>
-        <input type="text" id="lastName" name="lastName" required><br><br>
+        <input type="text" id="lastName" name="lastName" required pattern=".*\S+.*"><br><br>
     
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
     
         <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="tel" id="phone" name="phone" required pattern=".*\S+.*"><br><br>
     
         <label for="subject">Subject:</label><br>
         <input type="text" id="subject" name="subject" required pattern=".*\S+.*"><br><br>
     
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <textarea id="message" name="message" rows="4" required pattern=".*\S+.*"></textarea><br><br>
     
         <input type="submit" value="Submit">
     </form>    
