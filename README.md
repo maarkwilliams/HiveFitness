@@ -1,131 +1,303 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hive Fitness
 
-Welcome Jonathan Williams,
+! [Hive Fitness website shown on a variety of screen sizes] (documentation/indexherovideo.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The deployed site can be visited here: [Hive Fitness](https://maarkwilliams.github.io/HiveFitness/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Take a look at our Gym's and get ready to work out!
 
-## Gitpod Reminders
+As of 2023, there are over 7,000 gyms in the UK, with approximately 10 million members. The fitness industry has been growing steadily, and gyms are becoming more diverse, offering a wide range of services from traditional weight training to boutique fitness classes, group workouts, and wellness facilities.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Add the images of commits, langs and w3c here.
 
-`python3 -m http.server`
+## CONTENTS
 
-A blue button should appear to click: _Make Public_,
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
 
-Another blue button should appear to click: _Open Browser_.
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    * [The Home Page](#the-home-page)
+    * [The Clubs Page](#the-clubs-page)
+    * [The Members Benefits Page](#the-members-benefits-page)
+    * [The Contact Us Page](#the-contact-us-page)
+    * [The Success Page](#the-success-page)
+    * [The 404 Error Page](#the-404-error-page)
+    * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-A blue button should appear to click: _Make Public_,
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 
-Another blue button should appear to click: _Open Browser_.
+* [Testing](#testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- - -
+![Hive Fitness Banner](documentation/hivefitnesslogo.png)  
 
-To log into the Heroku toolbelt CLI:
+## User Experience (UX)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+#### First Time Visitor Goals
+* I want to be able to find out information on the gym.
+* I want the site to be optimized for my device.
+* I want the site to be user-friendly and easy to navigate.
 
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Returning Visitor Goals
+* I want to be able to ask questions and provide feedback easily.
 
 ---
 
-Happy coding!
+## Design
+
+### Colour Scheme
+
+I wanted tokeep the colour scheme for the site quite simple. My website features a black background with both saffron and white text. The idea behind this was to keep the website from being overwhelming but still elegant. 
+
+* I have used #000000 for my background. 
+* I have used #FFFFFF for text and some text backgrounds.
+* I have used #E1BF01 for text and some text backgrounds.
+
+![Hive Fitness colour scheme](documentation/colourscheme.png)
+
+### Typography
+
+Google Fonts was used to import the selected fonts for the site.
+
+* For the headings, I have used the Google font [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Hive%20Fitness%20HIVE%20FITNESS%20-%20Roboto&preview.text_type=custom&query=roboto). While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
+
+![Roboto Font Example](documentation/roboto.png)
+
+* For the body, I have used Google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=Hive%20Fitness%20HIVE%20FITNESS%20-%20Quicksand&preview.text_type=custom). QuickSand is a sans-serif font with clean, smooth lines. I’ve chosen a sans-serif font for the body text because studies show that sans-serif fonts tend to be more legible and easier to read on screens.
+
+![Quicksand Font Example](documentation/quicksand.png)
+
+### Imagery
+
+All images on the site were from [Pexels](https://www.pexels.com/)
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop using balsamiq.
+
+![Home Page](documentation/wireframes/indexwirefame)
+![Clubs Page](documentation/wireframes/clubswireframe)
+![Members Page](documentation/wireframes/memberswireframe)
+![Contact Page](documentation/wireframes/contactwireframe)
+
+### Features
+
+The website is made up of a home page, a clubs page, a members benefits page, a contact us page, a success page and a 4040 error page.
+
+All page are responsive and have the below:
+
+* A favicon in the browser tab.
+
+![Favicon]{documentation/favicon.png}
+
+* The title/logo of the website on everypage. This also acts as a way to navigate back to the home page.
+
+![Hive Fitness Logo](Insert here)
+
+* Every page has a navigation bar in the header and footer. 
+
+![Navigation Menu](documentation/hivefitnesslogo.png)
+
+#### The Home Page
+
+The home page of Hive Fitness displays a video of members working out at the gyms which would likely entice people to want to explore more of the website. 
+
+![Home page hero video](documentation/indexherovideo.png)
+
+As you scroll down the page, there is a motivational quote, two images to show off the gym and a contact us button which allows the user to seemlessly naviagte to the contact us page to get in touch.
+
+![Content section of home page](documentation/indexcontent.png)
+
+#### The Clubs Page
+
+The clubs page displays in large text the amount of Hive Fitness gyms there are in the UK. The large text is symbolises that Hive is not a small business. 
+
+Below that, there is a brief description and images of the largest cities that Hive Fitness has gyms in.
+
+![The clubs page](documentation/clubspage.png)
+
+#### The Members Benefits Page
+
+The members page displays a hero image followed by a list of benefits each member would recieve if they were to join Hive Fitness. 
+
+![Members page hero image and benefits](documentation/membershero.png)
+
+The members page also displays all the amenities that Hive Fitness offer. The classes and personal training is highlighted first with larger images. That is followed by 3 smaller images highlighting the fuel bar, retail store and spa, all with brief desciptions.
+
+![Members page amenities](documentation/memberscontent.png)
+
+#### The Contact Us Page
+
+The contact us page is where the user is able to engage with the most site the most. This page is used for the user to get in touch or leave feedback. The page contains text encourageing people to use the form on the page. The form has first name, last name, email, phone number, subject and message fields. All field are required to be filled with some form of text. The email field needs to be in email format with an '@'. The submit button below the form, submits the users information and navigates to the success page. 
+
+! [The contact us page](documentation/contactpage.png)
+
+#### The Success Page
+
+The success page displays text indicating the information they submitted via the contact us form was successfully submitted. 
+
+![The success page](documentation/successpage.png)
+
+#### The 404 Error Page
+
+The 404 error page displays text informing the user that there has been an error. Even though the user is unable to navigate to the page they want, the custom error page will improve their customer experience. 
+
+![The 404 error page](Insert here) ******
+
+#### Future Implementations
+
+In the future, I would like to implement: 
+
+1. Allow users to be able to purchase membership from the site.
+2. A log in page to user to book personal training, classes and the gyms amenities. 
+3. Create a back end database which will allow users to access workout routines and meal plans.
+4. Explore ways to improve accessibility for people with color blindness.
+
+### Accessibility
+
+I have made a conscious effort during the coding process to ensure the website is highly accessible. I have achieved this by:
+
+* I have used semantic HTML to improve acessibility and make the code more readable.
+* I’ve implemented a hover state on all buttons to clearly indicate when a user is hovering over them.
+* Choosing fonts that are easily readable and are suitable for dyslexia.
+* Ensuring that the colours on the site do not clash, to improve user experience. 
+
+- - -
+
+## Technologies Used
+
+### Languages Used
+
+Html, CSS
+
+### Frameworks, Libraries & Programs Used
+
+* [Balsamiq](https://balsamiq.com/) - To create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Favicon.io](https://favicon.io/) To create favicons.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Hive Fitness](link here).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [maarkwilliams/HiveFitness](https://maarkwilliams.github.io/HiveFitness/).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [maarkwilliams/HiveFitness](https://maarkwilliams.github.io/HiveFitness/)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [maarkwilliams/HiveFitness](https://maarkwilliams.github.io/HiveFitness/)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+Please refer to [testing.md](testing.md) file for all testing carried out.
+
+### Solved Bugs
+
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | Contact form button was getting a 501 error when being pressed | :--- |
+| 2 | Contact form fields were being allowed to be left blank when submitting | :--- |
+| 3 | When fixing my header to the site, It was covering a lot of the hero images/videos | :--- |
+| 4 | The social media icons in the footer would not move to the far right of the page | :--- |
+
+### Known Bugs
+
+No known bugs remain on the site.
+
+- - -
+
+## Credits
+
+### Code Used
+
+I used [this youtube channel](https://www.youtube.com/@slayingthedragon/videos) to learn more about flexbox.
+
+I spent hours reading through [this documentation](https://developer.mozilla.org/en-US/docs/Web/CSS) to get a better understanding of css and its capabilities. 
+
+I used [W3 schools html tutorial](https://www.w3schools.com/html/html_intro.asp) to research different approaches I could take when writing the html code for the site.  
+
+### Content
+
+All content for the site was written by myself.
+
+### Media
+
+The hero video for the home page is from [Synergy Film](https://www.youtube.com/watch?v=7gH0H4aunJU)
+
+All other images are from [Pexels](https://www.pexels.com/)
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My Code Institute Mentor.
+
+* Marko Tot - My Code Institute Tutor.
+
+* Chris Williams - For taking time out to hear me moan, helping debug and testing the site. 
+
+* The Code Institute Slack channel Peer Code Review 
