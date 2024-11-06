@@ -130,7 +130,7 @@ body {
 }
 
 .text-content {
-  flex: 1; 
+  flex: 1;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -141,6 +141,10 @@ body {
 
 .text-content p {
   font-size: 1.25rem;
+}
+
+.text-content a {
+  text-decoration: none;
 }
 
 .contactbutton {
@@ -609,7 +613,6 @@ body {
   overflow: hidden;
 }
 
-
 #hero-content {
   font-size: 0.6rem;
   text-transform: uppercase;
@@ -622,17 +625,14 @@ body {
   left: 50px;  
 }
 
-
 .content-section {
   flex-direction: column;
   height: auto;
-
 }
 
 .text-content {
   padding-top: 20px;
   padding-bottom: 40px;
-
 }
 
 .text-content h2 {
@@ -768,6 +768,7 @@ body {
 .contactbutton {
   width: 35%;
   height: auto;
+  text-decoration: none;
   padding: 10px 20px; 
   border-radius: 5px; 
   cursor: pointer; 

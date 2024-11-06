@@ -153,7 +153,7 @@ The members page also displays all the amenities that Hive Fitness offer. The cl
 
 The contact us page is where the user is able to engage with the most site the most. This page is used for the user to get in touch or leave feedback. The page contains text encourageing people to use the form on the page. The form has first name, last name, email, phone number, subject and message fields. All field are required to be filled with some form of text. The email field needs to be in email format with an '@'. The submit button below the form, submits the users information and navigates to the success page. 
 
-! [The contact us page](documentation/contactpage.png)
+![The contact us page](documentation/contactpage.png)
 
 #### The Success Page
 
@@ -165,7 +165,7 @@ The success page displays text indicating the information they submitted via the
 
 The 404 error page displays text informing the user that there has been an error. Even though the user is unable to navigate to the page they want, the custom error page will improve their customer experience. 
 
-![The 404 error page](Insert here) ******
+![The 404 error page](documentation/404page.png)
 
 #### Future Implementations
 
