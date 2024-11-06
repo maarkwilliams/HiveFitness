@@ -1,14 +1,12 @@
 # Hive Fitness
 
-! [Hive Fitness website shown on a variety of screen sizes] (documentation/indexherovideo.png)
+![Hive Fitness website shown on a variety of screen sizes] (documentation/indexherovideo.png)
 
 The deployed site can be visited here: [Hive Fitness](https://maarkwilliams.github.io/HiveFitness/)
 
 Take a look at our Gym's and get ready to work out!
 
 As of 2023, there are over 7,000 gyms in the UK, with approximately 10 million members. The fitness industry has been growing steadily, and gyms are becoming more diverse, offering a wide range of services from traditional weight training to boutique fitness classes, group workouts, and wellness facilities.
-
-Add the images of commits, langs and w3c here.
 
 ## CONTENTS
 
@@ -99,10 +97,10 @@ All images on the site were from [Pexels](https://www.pexels.com/)
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-![Home Page](documentation/wireframes/indexwirefame)
-![Clubs Page](documentation/wireframes/clubswireframe)
-![Members Page](documentation/wireframes/memberswireframe)
-![Contact Page](documentation/wireframes/contactwireframe)
+![Home Page](documentation/wireframes/indexwireframe.png)
+![Clubs Page](documentation/wireframes/clubswireframe.png)
+![Members Page](documentation/wireframes/memberswireframe.png)
+![Contact Page](documentation/wireframes/contactwireframe.png)
 
 ### Features
 
@@ -112,15 +110,16 @@ All page are responsive and have the below:
 
 * A favicon in the browser tab.
 
-![Favicon]{documentation/favicon.png}
+![Favicon](documentation/favicon.png)
 
 * The title/logo of the website on everypage. This also acts as a way to navigate back to the home page.
 
-![Hive Fitness Logo](Insert here)
+![Hive Fitness logo](documentation/hivefitnesslogo.png)
 
 * Every page has a navigation bar in the header and footer. 
 
-![Navigation Menu](documentation/hivefitnesslogo.png)
+![Navigation Menus](documentation/header-nav-bar.png)
+![Navigation Menus](documentation/footer-nav-bar.png)
 
 #### The Home Page
 
