@@ -26,9 +26,19 @@ p {
 /* Header */
 
 #pageheader {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
+  position: fixed;        /* Fix the header to the top of the page */
+  top: 0;                 /* Align the header at the top */
+  left: 0;    
+  width: 100%;            /* The header should span the full width */
+  background-color: black; /* Optional: Set a background color */
+  z-index: 1000;          /* Ensure the header stays on top of other content */
+  display: flex;          /* Use Flexbox to layout the items inside */
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center;    /* Vertically center items */
+}
+
+body {
+  padding-top: 80px; /* Adjust this value based on your header height */
 }
 
 #logo a {
@@ -126,6 +136,11 @@ p {
   flex-direction: column;
   justify-content: center; 
   padding-left: 50px;
+  padding-right: 10px;
+}
+
+.text-content p {
+  font-size: 1.25rem;
 }
 
 .contactbutton {
@@ -543,7 +558,17 @@ header::after {
 #pageheader {
   flex-direction: column;  
   align-items: center;     
-  padding: 20px;          
+  padding: 20px;  
+  height: 250px;     
+  position: fixed;        /* Fix the header to the top of the page */
+  top: 0;                 /* Align the header at the top */
+  left: 0;    
+  width: 100%;            /* The header should span the full width */
+  z-index: 1000;          /* Ensure the header stays on top of other content */
+}
+
+body {
+  padding-top: 275px;
 }
 
 #logo h2 {
@@ -684,7 +709,6 @@ header::after {
 
 .contactform {
   flex-direction: column;
-
 }
 }
 
@@ -694,8 +718,13 @@ header::after {
 
   #pageheader {
     flex-direction: column;  
-    align-items: center;     
-    padding: 10px;         
+    align-items: center; 
+    height: 175px;    
+    padding: 20px;         
+  }
+
+  body {
+    padding-top: 220px;
   }
   
   #logo h2 {
@@ -726,7 +755,6 @@ header::after {
 .text-content {
   padding-top: 20px;
   padding-bottom: 40px;
-
 }
 
 .text-content h2 {
@@ -827,5 +855,4 @@ header::after {
 .contactform textarea {
   font-size: 1rem; 
 }
-
 }
