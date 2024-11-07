@@ -255,12 +255,14 @@ header::after {
   display: flex;
   flex-direction: column; 
 }
+
 #clubs-content > div {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   margin-bottom: 20px; 
 }
+
 #clubs-info {
   display: flex;
   flex-direction: column; 
@@ -268,16 +270,21 @@ header::after {
   text-align: center; 
   flex: 1; 
 }
+
 #clubs-content h3 {
   font-size: 45px;
   color: white;
   margin: 0;
   padding-left: 20px; 
+  text-align: center;
 }
+
 #clubs-content p {
   margin: 5px 0 0 0;
   padding-left: 20px; 
+  text-align: center;
 }
+
 #clubs-content img {
   width: 50%; 
   height: auto; 
