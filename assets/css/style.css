@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: black;
 }
 
@@ -26,19 +28,19 @@ p {
 /* Header */
 
 #pageheader {
-  position: fixed;        /* Fix the header to the top of the page */
-  top: 0;                 /* Align the header at the top */
+  position: fixed; 
+  top: 0;  
   left: 0;    
-  width: 100%;            /* The header should span the full width */
-  background-color: black; /* Optional: Set a background color */
-  z-index: 1000;          /* Ensure the header stays on top of other content */
-  display: flex;          /* Use Flexbox to layout the items inside */
-  justify-content: space-between; /* Space between logo and menu */
-  align-items: center;    /* Vertically center items */
+  width: 100%;   
+  background-color: black; 
+  z-index: 1000;          
+  display: flex;          
+  justify-content: space-between; 
+  align-items: center;   
 }
 
 body {
-  padding-top: 80px; /* Adjust this value based on your header height */
+  padding-top: 80px; 
 }
 
 #logo a {
@@ -181,6 +183,7 @@ footer {
   justify-content: space-between; 
   align-items: center; 
   padding: 20px; 
+  margin-top: auto;
 }
 
 
@@ -250,32 +253,29 @@ header::after {
   display: flex;
   flex-direction: column; 
 }
-
 #clubs-content > div {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
   margin-bottom: 20px; 
 }
-
-.clubs-info {
+#clubs-info {
   display: flex;
   flex-direction: column; 
   align-items: center; 
   text-align: center; 
   flex: 1; 
 }
-
 #clubs-content h3 {
-  font-size: 3rem;
+  font-size: 45px;
   color: white;
-  margin: 0; 
+  margin: 0;
+  padding-left: 20px; 
 }
-
 #clubs-content p {
-  margin: 5px 0 0 0; 
+  margin: 5px 0 0 0;
+  padding-left: 20px; 
 }
-
 #clubs-content img {
   width: 50%; 
   height: auto; 
@@ -671,24 +671,12 @@ body {
   font-size: 3.5rem;
 }
 
-#clubs-content {
-  display: flex;  
+#clubs-content > div {
   flex-direction: column;
-  gap: 30px; 
-  padding: 20px; 
-}
-
-#clubs-swansea,
-#clubs-london,
-#clubs-manchester,
-#clubs-dublin {
-  display: flex;                
-  flex-direction: column;     
-  align-items: center;        
-  text-align: center;          
 }
 
 .clubs-info {
+  text-align: center;
   margin-bottom: 20px;         
 }
 

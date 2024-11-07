@@ -1,6 +1,6 @@
 # Hive Fitness
 
-![Hive Fitness website shown on a variety of screen sizes] (documentation/indexherovideo.png)
+![Hive Fitness website shown on a variety of screen sizes](documentation/indexherovideo.png)
 
 The deployed site can be visited here: [Hive Fitness](https://maarkwilliams.github.io/HiveFitness/)
 
@@ -258,10 +258,10 @@ Please refer to [testing.md](testing.md) file for all testing carried out.
 
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
-| 1 | Contact form button was getting a 501 error when being pressed | :--- |
-| 2 | Contact form fields were being allowed to be left blank when submitting | :--- |
-| 3 | When fixing my header to the site, It was covering a lot of the hero images/videos | :--- |
-| 4 | The social media icons in the footer would not move to the far right of the page | :--- |
+| 1 | Contact form button was getting a 501 error when being pressed | Created a success page so the button had somewhere to navigate to. |
+| 2 | Contact form fields were being allowed to be left blank when submitting | Added HTML code which forces to user to fill in the fields to continue. |
+| 3 | When fixing my header to the site, It was covering a lot of the hero images/videos | Researched into the css position attribute until I found a fix. |
+| 4 | The social media icons in the footer would not move to the far right of the page | Researched into flexbox and how it works. |
 
 ### Known Bugs
 
